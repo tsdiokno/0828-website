@@ -1,4 +1,4 @@
-baseURL = 'https://studio0828.netlify.app'
+baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = '0828 Studio'
-theme = 'ananke'
+theme = 'studio0828-theme'
