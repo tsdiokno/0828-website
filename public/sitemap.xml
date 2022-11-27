@@ -2,17 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://0828.studio/</loc>
-    <lastmod>2022-11-27T18:12:29+08:00</lastmod>
+    <loc>https://lucent-sprinkles-df5e59.netlify.app/</loc>
   </url><url>
-    <loc>http://0828.studio/posts/my-first-post/</loc>
-    <lastmod>2022-11-27T18:12:29+08:00</lastmod>
+    <loc>https://lucent-sprinkles-df5e59.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://0828.studio/posts/</loc>
-    <lastmod>2022-11-27T18:12:29+08:00</lastmod>
+    <loc>https://lucent-sprinkles-df5e59.netlify.app/posts/my-first-post/</loc>
   </url><url>
-    <loc>http://0828.studio/categories/</loc>
+    <loc>https://lucent-sprinkles-df5e59.netlify.app/posts/</loc>
   </url><url>
-    <loc>http://0828.studio/tags/</loc>
+    <loc>https://lucent-sprinkles-df5e59.netlify.app/tags/</loc>
   </url>
 </urlset>
