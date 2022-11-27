@@ -1,0 +1,4 @@
+baseURL = 'http://0828.studio/'
+languageCode = 'en-us'
+title = '0828 Studio'
+theme = 'ananke'
