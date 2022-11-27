@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "D:/APP - 0828 Website/quickstart",
+	"sourceRoot": "D:/APP - 0828 Website/0828-website",
 	"sources": [
 		"ananke/css/main.css"
 	],
