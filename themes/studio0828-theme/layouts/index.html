@@ -1,3 +1,10 @@
-{{ define "main" }}  
-{{ .Content }}  
+{{ define "main" }} 
+
+<div class="flex flex-col justify-center items-center text-center min-h-screen">
+    <div class="text-6xl font-display text-black mb-10 max-w-2xl [text-shadow:2px_2px_white,-2px_-2px_white,2px_-2px_white,-2px_2px_white,6px_6px_white]">
+    {{ .Params.hero }}
+</div>
+    <div class="text-xl max-w-2xl">{{ .Params.subtext}}</div>
+</div>
+
 {{ end }}  

@@ -549,8 +549,53 @@ video {
   }
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.min-h-screen{
+  min-height: 100vh;
+}
+
+.max-w-xl{
+  max-width: 36rem;
+}
+
+.max-w-2xl{
+  max-width: 42rem;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .bg-black{
@@ -562,8 +607,21 @@ video {
   padding: 2.5rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.align-middle{
+  vertical-align: middle;
+}
+
 .font-display{
   font-family: Ultra;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-lg{
@@ -576,17 +634,101 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[inset_0_0_0_1px_var\(--primary-500\)\2c inset_0px_0px_0px_2px_red\]{
+  --tw-shadow: inset 0 0 0 1px var(--primary-500),inset 0px 0px 0px 2px red;
+  --tw-shadow-colored: inset 0 0 0 1px var(--tw-shadow-color), inset 0px 0px 0px 2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-white{
+  --tw-shadow-color: #fff;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.outline-2{
+  outline-width: 2px;
+}
+
+.outline-white{
+  outline-color: #fff;
+}
+
+.drop-shadow-md{
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\[text-shadow\:red_2px_5px\]{
+  text-shadow: red 2px 5px;
+}
+
+.\[text-shadow\:white_1px_1px\]{
+  text-shadow: white 1px 1px;
+}
+
+.\[text-shadow\:1px_1px_white\2c \]{
+  text-shadow: 1px 1px white,;
+}
+
+.\[text-shadow\:1px_1px_white\]{
+  text-shadow: 1px 1px white;
+}
+
+.\[text-shadow\:1px_1px_white\2c -1px_-1px_white\]{
+  text-shadow: 1px 1px white,-1px -1px white;
+}
+
+.\[text-shadow\:1px_1px_white\2c -1px_-1px_white\2c 1px_-1px_white\2c -1px_1px_white\]{
+  text-shadow: 1px 1px white,-1px -1px white,1px -1px white,-1px 1px white;
+}
+
+.\[text-shadow\:1px_1px_black\2c -1px_-1px_black\2c 1px_-1px_black\2c -1px_1px_black\2c 2px_2px_white\]{
+  text-shadow: 1px 1px black,-1px -1px black,1px -1px black,-1px 1px black,2px 2px white;
+}
+
+.\[text-shadow\:2px_2px_black\2c -2px_-2px_black\2c 2px_-2px_black\2c -2px_2px_black\2c 6px_6px_white\]{
+  text-shadow: 2px 2px black,-2px -2px black,2px -2px black,-2px 2px black,6px 6px white;
+}
+
+.\[text-shadow\:3px_3px_black\2c -3px_-3px_black\2c 3px_-3px_black\2c -3px_3px_black\2c 6px_6px_white\]{
+  text-shadow: 3px 3px black,-3px -3px black,3px -3px black,-3px 3px black,6px 6px white;
+}
+
+.\[text-shadow\:3px_3px_white\2c -3px_-3px_white\2c 3px_-3px_white\2c -3px_3px_white\2c 6px_6px_white\]{
+  text-shadow: 3px 3px white,-3px -3px white,3px -3px white,-3px 3px white,6px 6px white;
+}
+
+.\[text-shadow\:2px_2px_white\2c -2px_-2px_white\2c 2px_-2px_white\2c -2px_2px_white\2c 6px_6px_white\]{
+  text-shadow: 2px 2px white,-2px -2px white,2px -2px white,-2px 2px white,6px 6px white;
 }
