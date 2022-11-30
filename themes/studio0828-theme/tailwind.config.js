@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['content/**/*.md', 'layouts/**/*.html'],
   theme: {
@@ -9,5 +10,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-text-fill-stroke'),
+  ],
 }
