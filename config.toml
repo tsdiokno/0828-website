@@ -1,6 +1,0 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = '0828 Studio'
-theme = 'studio0828-theme'
-[markup.goldmark.renderer]
-unsafe= true
